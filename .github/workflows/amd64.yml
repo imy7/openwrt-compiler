@@ -45,7 +45,7 @@ on:
     - cron: 0 8 * * 6
 
 env:
-  REPO_URL: https://github.com/openwrt/openwrt
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-21.02
   DEVICE_NAME: amd64
   FILES: amd64/files
