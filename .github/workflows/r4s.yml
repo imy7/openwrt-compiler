@@ -85,7 +85,7 @@ jobs:
       run: |
         chmod +x $DIY_P1_SH
         cd openwrt
-        [ -e $FEEDS_CONF ] && mv $FEEDS_CONF feeds.conf
+        [ -e $FEEDS_CONF ] && mv -f $FEEDS_CONF feeds.conf
         $GITHUB_WORKSPACE/$DIY_P1_SH
     - name: 加载自定义配置文件
       run: |
