@@ -7,3 +7,4 @@ sed -i 'N;40a\$(curdir)/upx/compile := $(curdir)/ucl/compile' tools/Makefile
 echo 'src-git ikoolproxy https://github.com/yaof2/luci-app-ikoolproxy' >>feeds.conf.default
 echo 'src-git mosdns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
 echo 'src-git bypass https://github.com/kiddin9/openwrt-bypass' >>feeds.conf.default
+echo 'src-git wolplus https://github.com/siwind/luci-app-wolplus#luci-app-wolplus' >>feeds.conf.default
