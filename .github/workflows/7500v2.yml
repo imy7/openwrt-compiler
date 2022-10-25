@@ -46,7 +46,7 @@ on:
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-21.02
+  REPO_BRANCH: master
   DEVICE_NAME: 7500v2
   FILES: 7500v2/files
   FEEDS_CONF: 7500v2/feeds.conf
