@@ -46,7 +46,7 @@ on:
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: master
+  REPO_BRANCH: openwrt-21.02
   DEVICE_NAME: R2S
   FILES: R2S/files
   FEEDS_CONF: R2S/feeds.conf
