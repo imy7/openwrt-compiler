@@ -51,8 +51,8 @@ env:
   FILES: R2S/files
   FEEDS_CONF: R2S/feeds.conf
   CONFIG_FILE: R2S/seed.config
-  DIY_P1_SH: R2S/part1.sh
-  DIY_P2_SH: R2S/part2.sh
+  DIY_P1_SH: part.sh
+  DIY_P2_SH: parts.sh
   TZ: Asia/Shanghai
 
 jobs:
