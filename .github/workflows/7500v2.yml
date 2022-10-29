@@ -52,7 +52,7 @@ env:
   FEEDS_CONF: 7500v2/feeds.conf
   CONFIG_FILE: 7500v2/seed.config
   DIY_P1_SH: part.sh
-  DIY_P2_SH: 7500v2/part2.sh
+  DIY_P2_SH: parts.sh
   TZ: Asia/Shanghai
 
 jobs:
