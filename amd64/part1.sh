@@ -8,4 +8,4 @@ git clone https://github.com/yaof2/luci-app-ikoolproxy package/new/luci-app-ikoo
 git clone https://github.com/sbwml/luci-app-mosdns package/new/luci-app-mosdns
 git clone https://github.com/kiddin9/openwrt-bypass package/new/luci-app-bypass
 git clone https://github.com/siwind/luci-app-wolplus package/new/luci-app-wolplus
-
+git clone https://github.com/imy7/luci-theme package/new/theme
