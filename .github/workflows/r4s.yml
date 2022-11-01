@@ -89,6 +89,7 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
+        
     - name: 加载自定义gitclone
       run: |
         chmod +x $DIY_P3_SH
