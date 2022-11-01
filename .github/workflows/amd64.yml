@@ -53,6 +53,7 @@ env:
   CONFIG_FILE: amd64/seed.config
   DIY_P1_SH: amd64/part1.sh
   DIY_P2_SH: amd64/part2.sh
+  DIY_P3_SH: amd64/part3.sh
   TZ: Asia/Shanghai
 
 jobs:
@@ -89,6 +90,12 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
+    - name: 加载自定义 gitclone
+      run: |
+        chmod +x $DIY_P3_SH
+        cd openwrt
+        $GITHUB_WORKSPACE/$DIY_P3_SH
+        
     - name: 加载自定义配置文件
       run: |
         cd openwrt
