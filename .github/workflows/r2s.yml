@@ -90,7 +90,6 @@ jobs:
     - name: 加载自定义gitclone 文件
       run: |
         chmod +x $DIY_P3_SH
-        cd openwrt/package/
         $GITHUB_WORKSPACE/$DIY_P3_SH
     - name: 加载自定义配置文件
       run: |
