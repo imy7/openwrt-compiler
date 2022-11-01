@@ -51,8 +51,8 @@ env:
   FILES: amd64/files
   FEEDS_CONF: amd64/feeds.conf
   CONFIG_FILE: amd64/seed.config
-  DIY_P1_SH: part.sh
-  DIY_P2_SH: parts.sh
+  DIY_P1_SH: amd64/part1.sh
+  DIY_P2_SH: amd64/part2.sh
   TZ: Asia/Shanghai
 
 jobs:
