@@ -53,6 +53,7 @@ env:
   CONFIG_FILE: R4S/seed.config
   DIY_P1_SH: R4s/part1.sh
   DIY_P2_SH: R4S/part2.sh
+  DIY_P3_SH: R4S/part3.sh
   TZ: Asia/Shanghai
 
 jobs:
@@ -88,6 +89,11 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
+    - name: 加载自定义gitclone
+      run: |
+        chmod +x $DIY_P3_SH
+        cd openwrt
+        $GITHUB_WORKSPACE/$DIY_P3_SH
 
     - name: 加载自定义配置文件
       run: |
