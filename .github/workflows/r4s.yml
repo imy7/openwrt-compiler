@@ -75,7 +75,7 @@ jobs:
           # -B 不列出任何以 ~ 字符结束的项目
           # -Q 将条目名称括上双引号
           echo "matrix={ \"config\": [ `echo $(ls -mBQ *.config)` ] }" >> $GITHUB_OUTPUT
-  build:
+    build:
     name: Build OpenWrt
     runs-on: ubuntu-latest
     needs: matrix
